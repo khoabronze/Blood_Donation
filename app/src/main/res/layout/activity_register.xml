@@ -9,6 +9,11 @@
 
     <EditText
         android:id="@+id/editTextText2"
+        android:drawableStart="@drawable/ic_focus_user"
+        android:background="@drawable/custom_input"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:drawablePadding="8dp"
         android:layout_width="211dp"
         android:layout_height="48dp"
         android:layout_marginTop="124dp"
@@ -22,6 +27,11 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
+        android:drawableStart="@drawable/ic_focus_mail"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
         android:layout_width="211dp"
         android:layout_height="48dp"
         android:layout_marginTop="28dp"
@@ -35,6 +45,11 @@
 
     <EditText
         android:id="@+id/editTextText4"
+        android:drawableStart="@drawable/ic_focus_phone"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
         android:layout_width="211dp"
         android:layout_height="48dp"
         android:layout_marginTop="28dp"
@@ -48,6 +63,11 @@
 
     <EditText
         android:id="@+id/editTextTextPassword2"
+        android:drawableStart="@drawable/ic_focus_lock"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
         android:layout_width="211dp"
         android:layout_height="48dp"
         android:layout_marginTop="28dp"
@@ -68,6 +88,15 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <Spinner
+        android:id="@+id/spinnerRole"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerBloodType" />
 
     <Button
         android:id="@+id/button2"
